@@ -5,12 +5,15 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon index.js",
-    "start": "node index.js"
+    "devAdmin": "nodemon index.js",
+    "start": "node index.js",
+    "startAdmin": "node index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "mongodb": "^4.2.2",
     "node-telegram-bot-api": "^0.56.0",
     "nodemon": "^2.0.15",
     "telegraf-develop": "^5.1.3"
